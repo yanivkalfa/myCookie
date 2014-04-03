@@ -17,7 +17,7 @@ Will create a new cookie named newCookie with the value newCookie<br><br>
 $.fn.myCookie({
   cName : "newCookie",
   cVal : "newCookie",
-  exp : 300//seconds
+  exp : 300
 });
 ```
 Will create a new cookie named newCookie with the value newCookie and will expire in 300 seconds<br><br>
