@@ -44,7 +44,7 @@ $.fn.myCookie({cName: "newCookie", exp:0});
 Both cases will delete the cookie "newCookie" <br>
 
 
-myCookie object would accept the following properties :<br>
+<strong>myCookie object would accept the following properties</strong> :<br>
 cName : (String) Cookie name, if "=" was used in the name it will be removed {default to : no default }.<br>
 cVal : (String|Object|Array) Cookie value can be anything mind cookie size limitation {default to : no default }.<br>
 exp : (Int) Number of second till cookie expires in seconds {default to : 30days - 60*60*24*30 }.<br>
