@@ -7,23 +7,18 @@ Although you are able to use objects as cookie value with the plugin keep in min
 
 <strong>Setting a cookie: </strong>
 ```javascript
-var cookie = {
-  cName : "newCookie",
-  cVal : "newCookie",
-};
-$.fn.myCookie(cookie);
+$.fn.myCookie( {cName : "newCookie", cVal : "newCookie"} );
 ```
 Will create a new cookie named newCookie with the value newCookie<br><br>
 
 
 <strong>Setting a cookie with expiration (in seconds): </strong>
 ```javascript
-var cookie = {
+$.fn.myCookie({
   cName : "newCookie",
   cVal : "newCookie",
   exp : 300//seconds
-};
-$.fn.myCookie(cookie);
+});
 ```
 Will create a new cookie named newCookie with the value newCookie and will expire in 300 seconds<br><br>
 
