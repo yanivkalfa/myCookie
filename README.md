@@ -1,7 +1,7 @@
 myCookie
 ========
 
-Simple jquery plugin to handle js cookies in a very simple way.<br><br>
+Simple jquery plugin to handle js cookies in a very simple way.<br>
 
 Although you are able to use objects as cookie value with the plugin keep in mind the 4k limit per domain(which is about 1000-4000 characters) exceeding this will cause problems.<br>
 
